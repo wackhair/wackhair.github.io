@@ -1,4 +1,4 @@
 # Wackhair.github.io
 My website
 
-- [Mit CV] (website/index.html)
+- [Mit CV] (website/blown.html)
