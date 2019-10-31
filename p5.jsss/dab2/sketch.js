@@ -26,8 +26,8 @@ function draw() {
     fill(0, 255, 0);
   }
 
-  circle(x - hr / 2, y - hr / 2, 0.05 * x)
-  circle(x + hr / 2, y - hr / 2, 0.05 * x)
+  circle(x - hr / 2.5, y - hr / 2, 0.05 * x)
+  circle(x + hr / 2.5, y - hr / 2, 0.05 * x)
   
 }
 
