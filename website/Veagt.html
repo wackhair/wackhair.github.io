@@ -1,0 +1,21 @@
+<html>
+<title>Brexit</title>
+<body>
+
+<h2>Beregn vægt</h2>
+<p>Til alle dem som heller ikke fatter hvorfor de bruger pounds i andre lande:</p>
+
+<p>
+  <label>Kilo</label>
+  <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Pounds: <span id="outputPounds"></span></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputPounds").innerHTML=valNum*2.2046;
+}
+</script>
+
+</body>
+</html>
