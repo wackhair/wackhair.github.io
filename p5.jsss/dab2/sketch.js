@@ -10,7 +10,7 @@ function draw() {
   let y = mouseY;
   let headSize = 0.5 * mouseX;
   let hr = headSize / 2;
-  let manHeight = 150;
+  let manHeight = 250;
 
   strokeWeight(0.05 * x)
   fill(255,255,0)
