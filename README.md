@@ -4,5 +4,5 @@
 - [Ma own homepage and tat](website/index.html)
 - [My stickmaaaan lookin thickboi](p5.js/dab)
 - [My Advanceed stickmans](p5.jsss/dab2)
-- [My weeeight conversion machiiiine!](website/veagt.html) 
+- [My weeeight conversion machiiiine!](website/Veagt.html) 
 - [Hvis du vil se lidt lækkert](http://www.patience-is-a-virtue.org/)
