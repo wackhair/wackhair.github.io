@@ -13,7 +13,7 @@ function draw() {
   let manHeight = 150;
 
   strokeWeight(0.05 * x)
-  fill(100,100,0)
+  fill(255,255,0)
   circle(x, y, headSize)
   strokeWeight(0.05 * x)
   line(x, y + hr, x, y + headSize + manHeight);
