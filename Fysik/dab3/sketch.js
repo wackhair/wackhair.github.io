@@ -4,7 +4,8 @@ let planke = 6.63e-34;
 let n;
 
 function setup() {
-  createCanvas(windowHeight, windowWidth);
+  createCanvas(1,1);
+  background(255,0,255)
   n = 1;
   createP("Klar til nogle syge udregninger?")
 }
