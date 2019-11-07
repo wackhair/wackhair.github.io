@@ -17,11 +17,11 @@ function draw() {
   let Ev = E/1.602e-19;
   
   
-  console.log("Energiniveau " + n + " er " + Ev);
+  createP("Energiniveau " + n + " er " + Ev);
       n++;
   if (n >= 11) {
     
-    console.log("Finito");
+    createP("Finito");
     noLoop();
   }
 
