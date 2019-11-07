@@ -10,7 +10,10 @@ function draw() {
   let y = mouseY;
   let headSize = 0.5 * mouseX;
   let hr = headSize / 2;
-  let manHeight = 1000;
+  let manHeight = 150;
+  let rightArmLenght = 50 + y;
+  let leftArmLength = 50 + x;
+
 
   strokeWeight(0.05 * x)
   fill(0,255,255)
@@ -19,7 +22,10 @@ function draw() {
   line(x, y + hr, x, y + headSize + manHeight);
   strokeWeight(0.005 * x)
 
-  
+  //Arme
+  Line(y - 50, x, y - 20, x + 40)
+
+
   if (eyeFlag) {
     fill(255,0,0);
   } else {
