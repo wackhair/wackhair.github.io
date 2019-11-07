@@ -11,8 +11,7 @@ function draw() {
   let headSize = 0.5 * mouseX;
   let hr = headSize / 2;
   let manHeight = 150;
-  let rightArmLenght = 50 + y;
-  let leftArmLength = 50 + x;
+  let armLenght = 50;;
 
 
   strokeWeight(0.05 * x)
@@ -21,10 +20,6 @@ function draw() {
   strokeWeight(0.05 * x)
   line(x, y + hr, x, y + headSize + manHeight);
   strokeWeight(0.005 * x)
-
-  //Arme
-  line(y - 50, x, y - 20, x + 40)
-  line(y - 50, x, y + 20, x - 40)
 
 
   if (eyeFlag) {
@@ -36,9 +31,13 @@ function draw() {
   circle(x - hr / 2.5, y - hr / 2, 0.05 * x)
   circle(x + hr / 2.5, y - hr / 2, 0.05 * x)
   
+    //Arme
+    line(x, y + 70 + headSize, x * 0.5 + headSize + 140 - armLenght, y + 40)
+    line(x, y + 70 + headSize, x * 0.5 + armLenght, y + 40)
 }
 
 let eyeFlag = false;
+
 
 
 function mousePressed() {
