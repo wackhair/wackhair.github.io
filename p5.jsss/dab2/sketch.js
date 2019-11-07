@@ -23,7 +23,8 @@ function draw() {
   strokeWeight(0.005 * x)
 
   //Arme
-  Line(y - 50, x, y - 20, x + 40)
+  line(y - 50, x, y - 20, x + 40)
+  line(y - 50, x, y + 20, x - 40)
 
 
   if (eyeFlag) {
