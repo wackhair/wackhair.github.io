@@ -4,13 +4,14 @@ let planke = 6.63e-34;
 let n;
 
 function setup() {
+  createCanvas(windowHeight, windowWidth);
   n = 1;
-  console.log("Klar til nogle syge udregninger?")
+  createP("Klar til nogle syge udregninger?")
 }
 
 
 function draw() {
-  background(220);
+
 
   
   let E = -planke * lyshastighed * R * 1 / (n * n);
