@@ -7,10 +7,13 @@ function draw() {
     rotate(0.01 * vinkel);
     imageMode(CENTER)
     image(img, 0,0);
-    vinkel = mouseX * 2
-
-
-}
+      if(keyIsDown(LEFT_ARROW)) {
+        vinkel ++;
+      }
+      if(keyIsDown(RIGHT_ARROW)) {
+        vinkel --;
+      }
+    } 
 
 function preload() {
     img = loadImage('Spiral.png');
