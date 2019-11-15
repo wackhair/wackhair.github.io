@@ -21,7 +21,7 @@ function draw() {
         speed = speed * 2;
       }
       if (keyCode === DOWN_ARROW){
-        speed = 0.01;
+        speed = speed / 2;
       }
     } 
 function preload() {
