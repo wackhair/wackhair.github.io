@@ -17,6 +17,7 @@ function draw() {
   image(img, 0, 0);
   if (keyIsDown(LEFT_ARROW)) {
     vinkel++;
+    
   }
   if (keyIsDown(RIGHT_ARROW)) {
     vinkel--;
@@ -29,13 +30,14 @@ function keyPressed() {
     spinSpeed = spinSpeed * 2;
     let Speeed = spinSpeed
     createP('Now you spin at ' + Speeed)
-
-  }
+   
+}
   if (keyCode === DOWN_ARROW) {
     speed = speed / 2;
     spinSpeed = spinSpeed / 2;
     let Speeed = spinSpeed
     createP('Now you slow down to ' + Speeed)
+  
   }
 
 }

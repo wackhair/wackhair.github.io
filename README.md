@@ -7,4 +7,5 @@
 - [My weeeight conversion machiiiine!](website/Veagt.html) 
 - [Hvis du vil se lidt lækkert](http://www.patience-is-a-virtue.org/)
 - [Et eller andet med en planke og noget lys](Fysik/dab3)
-- [You wil be cunfusion](Spinning)
+- [You are now cunfusion](Oplaeg)
+- [You wil be advanced cunfusion](Spinning)
