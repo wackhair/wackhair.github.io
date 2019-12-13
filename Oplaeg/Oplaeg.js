@@ -17,7 +17,7 @@ function draw() {
         vinkel = vinkel + 5;
     }
     if (keyIsDown(RIGHT_ARROW)) {
-        vinkel = vinkel - 5;
+        vinkel = vinkel -  5;
     }
 }
 function preload() {
